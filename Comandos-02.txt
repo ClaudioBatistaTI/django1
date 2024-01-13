@@ -1,0 +1,330 @@
+Microsoft Windows [versão 10.0.22621.2428]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\milyb\Documents\PYTHON\django1>python -m runserver
+C:\Program Files\Python38\python.exe: No module named runserver
+
+C:\Users\milyb\Documents\PYTHON\django1>python runserver
+python: can't open file 'runserver': [Errno 2] No such file or directory
+
+C:\Users\milyb\Documents\PYTHON\django1>python manage.py runserver
+Traceback (most recent call last):
+  File "manage.py", line 11, in main
+    from django.core.management import execute_from_command_line
+ModuleNotFoundError: No module named 'django'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "manage.py", line 22, in <module>
+    main()
+  File "manage.py", line 13, in main
+    raise ImportError(
+ImportError: Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?
+
+C:\Users\milyb\Documents\PYTHON\django1>dir
+ O volume na unidade C é OS
+ O Número de Série do Volume é DCDF-8226
+
+ Pasta de C:\Users\milyb\Documents\PYTHON\django1
+
+25/12/2023  21:46    <DIR>          .
+25/12/2023  20:51    <DIR>          ..
+25/12/2023  21:35    <DIR>          core
+25/12/2023  21:46            25.859 CWindowsSystem32cmd.exe - python  manage.py runserver.txt
+25/12/2023  20:42                 0 db.sqlite3
+25/12/2023  20:42    <DIR>          django1
+25/12/2023  19:32    <DIR>          Include
+25/12/2023  19:32    <DIR>          Lib
+25/12/2023  19:52               685 manage.py
+25/12/2023  19:32                89 pyvenv.cfg
+25/12/2023  19:38               117 requirements.txt
+25/12/2023  19:35    <DIR>          Scripts
+               5 arquivo(s)         26.750 bytes
+               7 pasta(s)   80.177.012.736 bytes disponíveis
+
+C:\Users\milyb\Documents\PYTHON\django1>django1/Scrpits/activate
+'django1' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\milyb\Documents\PYTHON\django1>python
+Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 23:03:10) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> django1/Include/Scripts/activate
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'django1' is not defined
+>>> quit()
+
+C:\Users\milyb\Documents\PYTHON\django1>cd..
+
+C:\Users\milyb\Documents\PYTHON>django1\Scripts\activate
+
+(django1) C:\Users\milyb\Documents\PYTHON>python manage.py runserver
+C:\Program Files\Python38\python.exe: can't open file 'manage.py': [Errno 2] No such file or directory
+
+(django1) C:\Users\milyb\Documents\PYTHON>cd django1
+
+(django1) C:\Users\milyb\Documents\PYTHON\django1>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 27, 2023 - 11:05:55
+Django version 4.2.8, using settings 'django1.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[27/Dec/2023 11:06:08] "GET / HTTP/1.1" 200 221
+Not Found: /favicon.ico
+[27/Dec/2023 11:06:08] "GET /favicon.ico HTTP/1.1" 404 2412
+[27/Dec/2023 11:06:24] "GET /contato HTTP/1.1" 200 1418
+C:\Users\milyb\Documents\PYTHON\django1\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Python38\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\utils\autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\core\management\commands\runserver.py", line 133, in inner_run
+    self.check(display_num_errors=True)
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\core\management\base.py", line 485, in check
+    all_issues = checks.run_checks(
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\core\checks\registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\core\checks\urls.py", line 42, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\core\checks\urls.py", line 61, in _load_all_namespaces
+    url_patterns = getattr(resolver, "url_patterns", [])
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\urls\resolvers.py", line 715, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\urls\resolvers.py", line 708, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\Program Files\Python38\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\milyb\Documents\PYTHON\django1\django1\urls.py", line 24, in <module>
+    path('',include('core.urls')),
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\urls\conf.py", line 38, in include
+    urlconf_module = import_module(urlconf_module)
+  File "C:\Program Files\Python38\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\milyb\Documents\PYTHON\django1\core\urls.py", line 3, in <module>
+    from .views import index,contato
+  File "C:\Users\milyb\Documents\PYTHON\django1\core\views.py", line 4
+    context{
+           ^
+SyntaxError: invalid syntax
+C:\Users\milyb\Documents\PYTHON\django1\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Python38\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\utils\autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\core\management\commands\runserver.py", line 133, in inner_run
+    self.check(display_num_errors=True)
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\core\management\base.py", line 485, in check
+    all_issues = checks.run_checks(
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\core\checks\registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\core\checks\urls.py", line 42, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\core\checks\urls.py", line 61, in _load_all_namespaces
+    url_patterns = getattr(resolver, "url_patterns", [])
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\urls\resolvers.py", line 715, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\urls\resolvers.py", line 708, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\Program Files\Python38\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\milyb\Documents\PYTHON\django1\django1\urls.py", line 24, in <module>
+    path('',include('core.urls')),
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\urls\conf.py", line 38, in include
+    urlconf_module = import_module(urlconf_module)
+  File "C:\Program Files\Python38\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\milyb\Documents\PYTHON\django1\core\urls.py", line 3, in <module>
+    from .views import index,contato
+  File "C:\Users\milyb\Documents\PYTHON\django1\core\views.py", line 4
+    context{
+           ^
+SyntaxError: invalid syntax
+C:\Users\milyb\Documents\PYTHON\django1\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 27, 2023 - 11:19:35
+Django version 4.2.8, using settings 'django1.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[27/Dec/2023 11:19:39] "GET / HTTP/1.1" 200 279
+C:\Users\milyb\Documents\PYTHON\django1\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 27, 2023 - 11:21:33
+Django version 4.2.8, using settings 'django1.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[27/Dec/2023 11:21:36] "GET / HTTP/1.1" 200 313
+
+(django1) C:\Users\milyb\Documents\PYTHON\django1>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 27, 2023 - 11:30:28
+Django version 4.2.8, using settings 'django1.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+C:\Users\milyb\Documents\PYTHON\django1\core\models.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Python38\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\utils\autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\core\management\commands\runserver.py", line 133, in inner_run
+    self.check(display_num_errors=True)
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\core\management\base.py", line 556, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+core.Produto.preco: (fields.E130) DecimalFields must define a 'decimal_places' attribute.
+core.Produto.preco: (fields.E132) DecimalFields must define a 'max_digits' attribute.
+
+System check identified 2 issues (0 silenced).
+C:\Users\milyb\Documents\PYTHON\django1\core\models.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 27, 2023 - 11:31:25
+Django version 4.2.8, using settings 'django1.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[27/Dec/2023 11:31:34] "GET / HTTP/1.1" 200 313
+[27/Dec/2023 11:31:53] "GET / HTTP/1.1" 200 313
+
+(django1) C:\Users\milyb\Documents\PYTHON\django1>python manage.py makemigrations
+Migrations for 'core':
+  core\migrations\0001_initial.py
+    - Create model Produto
+
+(django1) C:\Users\milyb\Documents\PYTHON\django1>python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, core, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying core.0001_initial... OK
+  Applying sessions.0001_initial... OK
+
+(django1) C:\Users\milyb\Documents\PYTHON\django1>python manage.py makemigrations
+Migrations for 'core':
+  core\migrations\0002_cliente.py
+    - Create model Cliente
+
+(django1) C:\Users\milyb\Documents\PYTHON\django1>python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, core, sessions
+Running migrations:
+  Applying core.0002_cliente... OK
+
+(django1) C:\Users\milyb\Documents\PYTHON\django1>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 27, 2023 - 11:46:34
+Django version 4.2.8, using settings 'django1.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[27/Dec/2023 11:46:44] "GET / HTTP/1.1" 200 313
+
+(django1) C:\Users\milyb\Documents\PYTHON\django1>

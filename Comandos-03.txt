@@ -1,0 +1,288 @@
+
+C:\Users\milyb\Documents\PYTHON\django1>django1\Scripts\activate
+O sistema não pode encontrar o caminho especificado.
+
+C:\Users\milyb\Documents\PYTHON\django1>django1\Scripts\activate
+O sistema não pode encontrar o caminho especificado.
+
+C:\Users\milyb\Documents\PYTHON\django1>django1/Scripts/activate
+'django1' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\milyb\Documents\PYTHON\django1>cd..
+
+C:\Users\milyb\Documents\PYTHON>django1\Scripts\activate
+
+(django1) C:\Users\milyb\Documents\PYTHON>cd django1
+
+(django1) C:\Users\milyb\Documents\PYTHON\django1>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 28, 2023 - 19:15:54
+Django version 4.2.8, using settings 'django1.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[28/Dec/2023 19:16:00] "GET / HTTP/1.1" 200 313
+Not Found: /favicon.ico
+[28/Dec/2023 19:16:02] "GET /favicon.ico HTTP/1.1" 404 2412
+
+(django1) C:\Users\milyb\Documents\PYTHON\django1>python manage.py createsuperuser
+Usuário (leave blank to use 'claudio'):
+Endereço de email: futuro2020es@gmail.com
+Password:
+Password (again):
+Superuser created successfully.
+
+(django1) C:\Users\milyb\Documents\PYTHON\django1>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 28, 2023 - 19:24:15
+Django version 4.2.8, using settings 'django1.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[28/Dec/2023 19:24:24] "GET / HTTP/1.1" 200 313
+[28/Dec/2023 19:24:30] "GET /admin HTTP/1.1" 301 0
+[28/Dec/2023 19:24:30] "GET /admin/ HTTP/1.1" 302 0
+[28/Dec/2023 19:24:30] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4209
+[28/Dec/2023 19:24:30] "GET /static/admin/css/base.css HTTP/1.1" 200 21310
+[28/Dec/2023 19:24:30] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+[28/Dec/2023 19:24:30] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+[28/Dec/2023 19:24:30] "GET /static/admin/css/login.css HTTP/1.1" 200 958
+[28/Dec/2023 19:24:30] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
+[28/Dec/2023 19:24:30] "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+[28/Dec/2023 19:24:30] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+[28/Dec/2023 19:24:44] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[28/Dec/2023 19:24:44] "GET /admin/ HTTP/1.1" 200 5633
+[28/Dec/2023 19:24:44] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+[28/Dec/2023 19:24:44] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[28/Dec/2023 19:24:44] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+C:\Users\milyb\Documents\PYTHON\django1\core\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 28, 2023 - 19:30:17
+Django version 4.2.8, using settings 'django1.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+
+(django1) C:\Users\milyb\Documents\PYTHON\django1>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 28, 2023 - 19:30:29
+Django version 4.2.8, using settings 'django1.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[28/Dec/2023 19:30:51] "GET /admin/ HTTP/1.1" 200 6706
+[28/Dec/2023 19:32:32] "GET /admin/core/produto/ HTTP/1.1" 200 7839
+[28/Dec/2023 19:32:32] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+[28/Dec/2023 19:32:32] "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+[28/Dec/2023 19:32:32] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[28/Dec/2023 19:32:32] "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+[28/Dec/2023 19:32:32] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+[28/Dec/2023 19:32:32] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+[28/Dec/2023 19:32:32] "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+[28/Dec/2023 19:32:32] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+[28/Dec/2023 19:32:32] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[28/Dec/2023 19:32:32] "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+[28/Dec/2023 19:32:32] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[28/Dec/2023 19:32:32] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[28/Dec/2023 19:32:36] "GET /admin/core/produto/add/ HTTP/1.1" 200 9848
+[28/Dec/2023 19:32:36] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+[28/Dec/2023 19:32:36] "GET /static/admin/css/forms.css HTTP/1.1" 200 9048
+[28/Dec/2023 19:32:36] "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+[28/Dec/2023 19:32:36] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[28/Dec/2023 19:32:36] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11921
+[28/Dec/2023 19:32:50] "POST /admin/core/produto/add/ HTTP/1.1" 302 0
+[28/Dec/2023 19:32:50] "GET /admin/core/produto/ HTTP/1.1" 200 9223
+[28/Dec/2023 19:32:50] "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+[28/Dec/2023 19:32:50] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[28/Dec/2023 19:32:52] "GET /admin/core/produto/add/ HTTP/1.1" 200 9848
+[28/Dec/2023 19:32:52] "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+[28/Dec/2023 19:33:09] "POST /admin/core/produto/add/ HTTP/1.1" 302 0
+[28/Dec/2023 19:33:09] "GET /admin/core/produto/add/ HTTP/1.1" 200 10103
+[28/Dec/2023 19:33:09] "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+[28/Dec/2023 19:33:33] "POST /admin/core/produto/add/ HTTP/1.1" 302 0
+[28/Dec/2023 19:33:33] "GET /admin/core/produto/ HTTP/1.1" 200 9658
+[28/Dec/2023 19:33:33] "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+C:\Users\milyb\Documents\PYTHON\django1\core\models.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 28, 2023 - 19:35:31
+Django version 4.2.8, using settings 'django1.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[28/Dec/2023 19:35:35] "GET /admin/core/produto/ HTTP/1.1" 200 9412
+[28/Dec/2023 19:35:35] "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+[28/Dec/2023 19:35:45] "GET /admin/core/produto/3/change/ HTTP/1.1" 200 10088
+[28/Dec/2023 19:35:45] "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+[28/Dec/2023 19:35:51] "POST /admin/core/produto/3/change/ HTTP/1.1" 302 0
+[28/Dec/2023 19:35:51] "GET /admin/core/produto/ HTTP/1.1" 200 9612
+[28/Dec/2023 19:35:51] "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+[28/Dec/2023 19:37:27] "GET /admin/core/cliente/add/ HTTP/1.1" 200 9877
+[28/Dec/2023 19:37:27] "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+[28/Dec/2023 19:38:08] "POST /admin/core/cliente/add/ HTTP/1.1" 200 10097
+[28/Dec/2023 19:38:08] "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+[28/Dec/2023 19:38:26] "POST /admin/core/cliente/add/ HTTP/1.1" 302 0
+[28/Dec/2023 19:38:26] "GET /admin/core/cliente/add/ HTTP/1.1" 200 10132
+[28/Dec/2023 19:38:26] "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+[28/Dec/2023 19:38:50] "POST /admin/core/cliente/add/ HTTP/1.1" 302 0
+[28/Dec/2023 19:38:50] "GET /admin/core/cliente/ HTTP/1.1" 200 9441
+[28/Dec/2023 19:38:50] "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+C:\Users\milyb\Documents\PYTHON\django1\core\models.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Python38\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\utils\autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\core\management\commands\runserver.py", line 125, in inner_run
+    autoreload.raise_last_exception()
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\utils\autoreload.py", line 87, in raise_last_exception
+    raise _exception[1]
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\core\management\__init__.py", line 394, in execute
+    autoreload.check_errors(django.setup)()
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\utils\autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+  File "C:\Program Files\Python38\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\milyb\Documents\PYTHON\django1\core\models.py", line 17
+    return self f {'nome'}{'sobrenome'}
+                ^
+SyntaxError: invalid syntax
+C:\Users\milyb\Documents\PYTHON\django1\core\models.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Python38\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\utils\autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\core\management\commands\runserver.py", line 125, in inner_run
+    autoreload.raise_last_exception()
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\utils\autoreload.py", line 87, in raise_last_exception
+    raise _exception[1]
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\core\management\__init__.py", line 394, in execute
+    autoreload.check_errors(django.setup)()
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\utils\autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+  File "C:\Users\milyb\Documents\PYTHON\django1\lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+  File "C:\Program Files\Python38\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\milyb\Documents\PYTHON\django1\core\models.py", line 17
+    return self f {'nome'}.{'sobrenome'}
+                ^
+SyntaxError: invalid syntax
+C:\Users\milyb\Documents\PYTHON\django1\core\models.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 28, 2023 - 19:42:27
+Django version 4.2.8, using settings 'django1.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[28/Dec/2023 19:42:31] "GET /admin/core/cliente/ HTTP/1.1" 200 9219
+[28/Dec/2023 19:42:31] "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+[28/Dec/2023 19:43:05] "GET /admin/core/produto/ HTTP/1.1" 200 9412
+[28/Dec/2023 19:43:05] "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+[28/Dec/2023 19:43:07] "GET /admin/core/produto/3/change/ HTTP/1.1" 200 10088
+[28/Dec/2023 19:43:07] "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+[28/Dec/2023 19:43:10] "GET /admin/core/produto/3/delete/ HTTP/1.1" 200 7775
+[28/Dec/2023 19:43:10] "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+[28/Dec/2023 19:43:20] "POST /admin/core/produto/3/delete/ HTTP/1.1" 302 0
+[28/Dec/2023 19:43:20] "GET /admin/core/produto/ HTTP/1.1" 200 9361
+[28/Dec/2023 19:43:20] "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+C:\Users\milyb\Documents\PYTHON\django1\core\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 28, 2023 - 19:47:28
+Django version 4.2.8, using settings 'django1.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+C:\Users\milyb\Documents\PYTHON\django1\core\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 28, 2023 - 19:48:29
+Django version 4.2.8, using settings 'django1.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[28/Dec/2023 19:48:32] "GET /admin/core/produto/ HTTP/1.1" 200 9637
+[28/Dec/2023 19:48:32] "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+[28/Dec/2023 19:48:34] "GET /admin/core/cliente/ HTTP/1.1" 200 9667
+[28/Dec/2023 19:48:34] "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+[28/Dec/2023 19:48:39] "GET /admin/core/produto/ HTTP/1.1" 200 9637
+[28/Dec/2023 19:48:39] "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+[28/Dec/2023 19:48:45] "GET /admin/ HTTP/1.1" 200 8749
+[28/Dec/2023 19:48:45] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[28/Dec/2023 19:48:46] "GET /admin/core/cliente/ HTTP/1.1" 200 9667
+[28/Dec/2023 19:48:46] "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+C:\Users\milyb\Documents\PYTHON\django1\django1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 28, 2023 - 19:53:34
+Django version 4.2.8, using settings 'django1.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+Not Found: /admin/core/cliente/
+[28/Dec/2023 19:53:37] "GET /admin/core/cliente/ HTTP/1.1" 404 2437
+[28/Dec/2023 19:53:44] "GET /painel HTTP/1.1" 301 0
+[28/Dec/2023 19:53:44] "GET /painel/ HTTP/1.1" 200 8772
+[28/Dec/2023 19:53:48] "GET /painel/core/cliente/ HTTP/1.1" 200 9686
+[28/Dec/2023 19:53:48] "GET /painel/jsi18n/ HTTP/1.1" 200 8876
+[28/Dec/2023 19:56:30] "POST /painel/logout/ HTTP/1.1" 200 3634
